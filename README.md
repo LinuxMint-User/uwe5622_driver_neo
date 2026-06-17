@@ -9,7 +9,10 @@ uwe5622的内核驱动源码，从 fork 的仓库中，修改了：
 本驱动需搭配本人其他有关仓库对内核源码树的修改（因为有些东西是官方零零散散添加到源码树里面的，缺少一些文件会导致编译失败或模块工作异常），具体涉及到的有：  
 1. /drivers/misc/sunxi-addr/sunxi-addr.c(添加整个sunxi-addr文件夹)
 2. /drivers/nvmem/sunxi_sid.c(修改)
-3. /net/bluetooth/hci_event.c(修改)
+3. /net/bluetooth/hci_event.c(修改)  
+
+关于驱动固件：  
+如果固件是放在/lib/firmware目录下，可能需要在此目录下新建uwe5622文件夹并把固件迁移进去才能正常加载固件  
   
 将会在近期(202606190000UTC+8前)上传完毕所有改动(202606171336UTC+8已上传所有改动,请参阅仓库：https://github.com/LinuxMint-User/orangepi-zero-3-uwe5622-driver-neo-patches)  
 本仓库将专注于驱动而不专注于设备，设备树文件的编写请参阅仓库：https://github.com/LinuxMint-User/orangepi-zero-3-dtb-neo  
