@@ -11,7 +11,7 @@ uwe5622的内核驱动源码，从 fork 的仓库中，修改了：
 2. /drivers/nvmem/sunxi_sid.c(修改)
 3. /net/bluetooth/hci_event.c(修改)
   
-将会在近期(202606190000UTC+8前)上传完毕所有改动(202606171336UTC+8已上传所有改动)
+将会在近期(202606190000UTC+8前)上传完毕所有改动(202606171336UTC+8已上传所有改动,请参阅仓库：https://github.com/LinuxMint-User/orangepi-zero-3-uwe5622-driver-neo-patches)
 
 当前仅测试了 6.18 LTS 版本，从 fork 的 6.11（不包含） 至 6.18（不包含）版本未测试，新版本添加的条件编译均已 6.18 版本为阈值，如有问题请提交 issue 或自行修改阈值。
 当前仅测试了 WiFi 功能，蓝牙功能暂未测试(蓝牙功能已测试正常202606162251UTC+8)
